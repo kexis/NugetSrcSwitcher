@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>TestPackageSrc</id>
+    <version>1</version>
+    <title>TestPackageSrc</title>
+    <authors>Kexis</authors>
+    <owners>Kexis</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <description>TestPackageSrc</description>    
+    <copyright>Copyright 2020</copyright>    	
+	 <dependencies>
+      <group targetFramework=".NETFramework4.8" />
+    </dependencies>
+  </metadata>
+  <files>
+		<file src="lib\**" target="lib/net48" />
+	</files>
+</package>
